@@ -1,6 +1,7 @@
 <template>
   <div id="app">    
     <app-header></app-header>
+    <!-- v-bind the items list input to the prop!!-->
     <PageContent v-bind:itemsList="itemsListInput"></PageContent>
      <PageContent v-bind:itemsList="itemsListSecond"></PageContent>
     <app-footer></app-footer>
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+//Added comment
 //Registering components Locally
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
